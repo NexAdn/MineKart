@@ -18,3 +18,5 @@ execute as @e[tag=prepare] at @s run scoreboard players set @e[tag=strecke, limi
 # Detection
 execute as @r[tag=player] if entity @p[tag=player] run function engine:prepare_run
 scoreboard players reset @e[tag=marker,scores={markerpos=0}] markerpos
+# Cleanup
+kill @e[tag=prepare]
