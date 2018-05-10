@@ -5,6 +5,7 @@ scoreboard objectives add gamerun dummy
 scoreboard objectives add leavegame dummy
 scoreboard objectives add markerpos dummy
 scoreboard objectives add position dummy
+scoreboard objectives add strecke dummy
 scoreboard objectives add tracklength dummy
 
 scoreboard objectives add vp1 dummy
