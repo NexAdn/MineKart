@@ -13,7 +13,7 @@ scoreboard players reset * vp1
 scoreboard players reset * tracklength
 
 # Preparation
-execute as @r[tag=player, scores={leavegame=0}] at @e[tag=strecke, distance=..30, limit=1, sort=nearest] run summon armor_stand ~ ~ ~ {NoGravity: 1b, Invulnerable: 1b, Marker: 1b, Invisible: 1b, PersistenceRequired: 1b, Tags: ["prepare"], ArmorItems: [{}, {}, {}, {id: "minecraft:diamond_block", Count: 1b}]}
+execute as @e[tag=strecke, distance=..30, limit=1, sort=nearest] at @s run summon armor_stand ~ ~ ~ {NoGravity: 1b, Invulnerable: 1b, Marker: 1b, Invisible: 1b, PersistenceRequired: 1b, Tags: ["prepare"], ArmorItems: [{}, {}, {}, {id: "minecraft:diamond_block", Count: 1b}]}
 # TODO: Error detection
 
 # Detection
